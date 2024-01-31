@@ -11,4 +11,5 @@ Dockerfiles for building personal development images
  docker exec -u root -it dlenv bash
  passwd deepL
  visudo
+ docker run --gpus all --shm-size=32g -p 8888:8888 -it --name dlenv -v /home/liu/workspace:/home/deepL/workspace yifengdev/keras-jupyter:selfuse_v1.0 bash
 ```
