@@ -10,4 +10,5 @@ Dockerfiles for building personal development images
  docker exec -it dlenv bash
  docker exec -u root -it dlenv bash
  passwd deepL
+ visudo
 ```
